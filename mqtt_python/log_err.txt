@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/local/svn/robobot/mqtt_python/mqtt-client.py", line 43, in <module>
+    from saruco import aruco
+  File "/home/local/svn/robobot/mqtt_python/saruco.py", line 246
+    cv.putText(frame, f"{[int(rc[0]*100), int(rc[1]*100), int(rc[2]*100)]}",
+IndentationError: unexpected indent

@@ -1,0 +1,1919 @@
+Initialized ArUco detection
+% Command line argument '--silent'=False
+% Connected to MQTT Broker 10.197.219.27 on 1883
+% ConnectedOut to MQTT Broker 10.197.219.27 on 1883
+% GPIO all ok
+% Robot (srobot.py) data stream OK; 6 loops.
+% IR sensor (sir.py):: got data stream; 0 loops.
+% SPose.py:: Robot config info 1 at 0:00:00.367045
+%    - Wheel radius (left,right): (0.074, 0.074 m
+%    - Encoder tick per rev: 68.0
+%    - Gearing: 19.0:1
+%    - Wheel base: 0.23 m
+% Pose:: configured, and got data stream; 1 loops.
+% IMU (simu.py):: got data stream; 0 loops.
+% Edge (sedge.py):: turns on line sensor
+% Camera available: size (616x820, 3 channels)
+% Edge (sedge.py):: got data stream; after 1
+% (uservice.py) Setup finished with connected=True
+Starting up... waiting for 2 seconds
+Starting!
+start following with speed: 0.4 and ref_pos: 0
+LineCtrl:: PIDrecalculate: T=0.05 -> 10.01 ms
+%% Lead: tauZ 1.300 sec, tauP = 0.260 sec, T = 10.007 ms
+
+%%       tauZ2pT = 2.6100, tauZ2mT = 2.5900, tauP2pT = 0.5300, tauP2mT = 0.5300
+cross cnt: 1 	 tripB: 2.586075249999997
+timesInLine: 1 	 timesInIntermediate: 0
+turning first corner
+start following with speed: 0.2 and ref_pos: 1.4
+cross cnt: 2 	 tripB: 0.740906699999999
+timesInLine: 1 	 timesInIntermediate: 1
+cross cnt: 3 	 tripB: 0.7910100499999998
+timesInLine: 1 	 timesInIntermediate: 1
+<Statehelpers.Transition.Transition object at 0x7fff5112a610>
+transition <Statehelpers.Transition.Transition object at 0x7fff5112a610>
+got new transition
+var1 = 0
+var2 = 14.761082172393799
+itemInForc = False
+timeSTS = 0
+distancedrivenSTS = 0
+timesInLinefollow = 1
+following_line = False
+crossing_counter = 0
+
+<States.AxePasser.AxePasser object at 0x7fff51133f90>
+Executing Axestate
+driving 20cm
+going into axe loop
+distvalues 0.881
+stop driving because we see through axe
+distvalues 0.458
+stop driving because we see through axe
+distvalues 0.35
+drive slow toward axe
+distvalues 0.337
+drive slow toward axe
+distvalues 0.336
+drive slow toward axe
+distvalues 0.327
+drive slow toward axe
+distvalues 0.327
+drive slow toward axe
+distvalues 0.329
+drive slow toward axe
+distvalues 0.327
+drive slow toward axe
+distvalues 0.32
+drive slow toward axe
+distvalues 0.316
+drive slow toward axe
+distvalues 0.311
+drive slow toward axe
+distvalues 0.31
+drive slow toward axe
+distvalues 0.31
+drive slow toward axe
+distvalues 0.311
+drive slow toward axe
+distvalues 0.309
+drive slow toward axe
+distvalues 0.304
+drive slow toward axe
+distvalues 0.303
+drive slow toward axe
+distvalues 0.302
+drive slow toward axe
+distvalues 0.302
+drive slow toward axe
+distvalues 0.299
+drive slow toward axe
+distvalues 0.295
+drive slow toward axe
+distvalues 0.294
+drive slow toward axe
+distvalues 0.289
+drive slow toward axe
+distvalues 0.284
+drive slow toward axe
+distvalues 0.278
+drive slow toward axe
+distvalues 0.278
+drive slow toward axe
+distvalues 0.273
+drive slow toward axe
+distvalues 0.265
+drive slow toward axe
+distvalues 0.26
+drive slow toward axe
+distvalues 0.259
+drive slow toward axe
+distvalues 0.258
+drive slow toward axe
+distvalues 0.254
+drive slow toward axe
+distvalues 0.25
+drive slow toward axe
+distvalues 0.247
+drive slow toward axe
+distvalues 0.243
+drive slow toward axe
+distvalues 0.242
+drive slow toward axe
+distvalues 0.24
+drive slow toward axe
+distvalues 0.237
+drive slow toward axe
+distvalues 0.233
+drive slow toward axe
+distvalues 0.23
+drive slow toward axe
+distvalues 0.228
+drive slow toward axe
+distvalues 0.224
+drive slow toward axe
+distvalues 0.221
+drive slow toward axe
+distvalues 0.219
+drive slow toward axe
+distvalues 0.216
+drive slow toward axe
+distvalues 0.213
+drive slow toward axe
+distvalues 0.211
+drive slow toward axe
+distvalues 0.209
+drive slow toward axe
+distvalues 0.205
+drive slow toward axe
+distvalues 0.202
+drive slow toward axe
+distvalues 0.2
+drive slow toward axe
+distvalues 0.196
+drive slow toward axe
+distvalues 0.194
+drive slow toward axe
+distvalues 0.19
+drive slow toward axe
+distvalues 0.185
+drive slow toward axe
+distvalues 0.202
+drive slow toward axe
+distvalues 0.275
+drive slow toward axe
+distvalues 0.366
+drive slow toward axe
+distvalues 0.434
+stop driving because we see through axe
+distvalues 0.451
+stop driving because we see through axe
+distvalues 0.463
+stop driving because we see through axe
+distvalues 0.471
+stop driving because we see through axe
+distvalues 0.512
+stop driving because we see through axe
+distvalues 0.502
+stop driving because we see through axe
+distvalues 0.479
+stop driving because we see through axe
+distvalues 0.536
+stop driving because we see through axe
+distvalues 0.496
+stop driving because we see through axe
+distvalues 0.474
+stop driving because we see through axe
+distvalues 0.517
+stop driving because we see through axe
+distvalues 0.511
+stop driving because we see through axe
+distvalues 0.51
+stop driving because we see through axe
+distvalues 0.502
+stop driving because we see through axe
+distvalues 0.457
+stop driving because we see through axe
+distvalues 0.452
+stop driving because we see through axe
+distvalues 0.453
+stop driving because we see through axe
+distvalues 0.548
+stop driving because we see through axe
+distvalues 0.501
+stop driving because we see through axe
+distvalues 0.454
+stop driving because we see through axe
+distvalues 0.406
+stop driving because we see through axe
+distvalues 0.438
+stop driving because we see through axe
+distvalues 0.478
+stop driving because we see through axe
+distvalues 0.517
+stop driving because we see through axe
+distvalues 0.509
+stop driving because we see through axe
+distvalues 0.482
+stop driving because we see through axe
+distvalues 0.461
+stop driving because we see through axe
+distvalues 0.471
+stop driving because we see through axe
+distvalues 0.464
+stop driving because we see through axe
+distvalues 0.465
+stop driving because we see through axe
+distvalues 0.474
+stop driving because we see through axe
+distvalues 0.529
+stop driving because we see through axe
+distvalues 0.492
+stop driving because we see through axe
+distvalues 0.435
+stop driving because we see through axe
+distvalues 0.452
+stop driving because we see through axe
+distvalues 0.471
+stop driving because we see through axe
+distvalues 0.471
+stop driving because we see through axe
+distvalues 0.444
+stop driving because we see through axe
+distvalues 0.412
+stop driving because we see through axe
+distvalues 0.407
+stop driving because we see through axe
+distvalues 0.418
+stop driving because we see through axe
+distvalues 0.491
+stop driving because we see through axe
+distvalues 0.461
+stop driving because we see through axe
+distvalues 0.406
+stop driving because we see through axe
+distvalues 0.459
+stop driving because we see through axe
+distvalues 0.466
+stop driving because we see through axe
+distvalues 0.459
+stop driving because we see through axe
+distvalues 0.457
+stop driving because we see through axe
+distvalues 0.531
+stop driving because we see through axe
+distvalues 0.594
+stop driving because we see through axe
+distvalues 0.632
+stop driving because we see through axe
+distvalues 0.236
+drive slow toward axe
+distvalues 0.191
+drive slow toward axe
+distvalues 0.181
+drive slow toward axe
+distvalues 0.177
+drive slow toward axe
+distvalues 0.178
+drive slow toward axe
+distvalues 0.178
+drive slow toward axe
+distvalues 0.176
+drive slow toward axe
+distvalues 0.171
+drive slow toward axe
+distvalues 0.169
+drive slow toward axe
+distvalues 0.166
+drive slow toward axe
+distvalues 0.161
+drive slow toward axe
+distvalues 0.155
+drive slow toward axe
+distvalues 0.15
+stop to get ready to yeet
+while : 0.15, 0.169
+while : 0.15, 0.169
+distvalues 0.15
+while : 0.15, 0.166
+while : 0.15, 0.166
+distvalues 0.147
+while : 0.147, 0.161
+while : 0.147, 0.161
+distvalues 0.145
+while : 0.145, 0.155
+while : 0.145, 0.155
+distvalues 0.145
+while : 0.145, 0.15
+while : 0.145, 0.15
+distvalues 0.144
+while : 0.144, 0.15
+while : 0.144, 0.15
+distvalues 0.142
+while : 0.142, 0.147
+while : 0.142, 0.147
+distvalues 0.142
+while : 0.142, 0.145
+while : 0.142, 0.145
+distvalues 0.143
+while : 0.143, 0.145
+while : 0.143, 0.145
+distvalues 0.145
+while : 0.145, 0.144
+while : 0.145, 0.144
+distvalues 0.145
+while : 0.145, 0.142
+while : 0.145, 0.142
+distvalues 0.145
+while : 0.145, 0.142
+while : 0.145, 0.142
+distvalues 0.144
+while : 0.144, 0.143
+while : 0.144, 0.143
+distvalues 0.144
+while : 0.144, 0.145
+while : 0.144, 0.145
+distvalues 0.144
+while : 0.144, 0.145
+while : 0.144, 0.145
+distvalues 0.143
+while : 0.143, 0.145
+while : 0.143, 0.145
+distvalues 0.143
+while : 0.143, 0.144
+while : 0.143, 0.144
+distvalues 0.144
+while : 0.144, 0.144
+while : 0.144, 0.144
+distvalues 0.144
+while : 0.144, 0.144
+while : 0.144, 0.144
+distvalues 0.144
+while : 0.144, 0.143
+while : 0.144, 0.143
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.143
+while : 0.143, 0.144
+while : 0.143, 0.144
+distvalues 0.143
+while : 0.143, 0.144
+while : 0.143, 0.144
+distvalues 0.144
+while : 0.144, 0.144
+while : 0.144, 0.144
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.142
+while : 0.142, 0.143
+while : 0.142, 0.143
+distvalues 0.142
+while : 0.142, 0.144
+while : 0.142, 0.144
+distvalues 0.142
+while : 0.142, 0.143
+while : 0.142, 0.143
+distvalues 0.142
+while : 0.142, 0.143
+while : 0.142, 0.143
+distvalues 0.141
+while : 0.141, 0.142
+while : 0.141, 0.142
+distvalues 0.141
+while : 0.141, 0.142
+while : 0.141, 0.142
+distvalues 0.142
+while : 0.142, 0.142
+while : 0.142, 0.142
+distvalues 0.142
+while : 0.142, 0.142
+while : 0.142, 0.142
+distvalues 0.142
+while : 0.142, 0.141
+while : 0.142, 0.141
+distvalues 0.143
+while : 0.143, 0.141
+while : 0.143, 0.141
+distvalues 0.142
+while : 0.142, 0.142
+while : 0.142, 0.142
+distvalues 0.142
+while : 0.142, 0.142
+while : 0.142, 0.142
+distvalues 0.142
+while : 0.142, 0.142
+while : 0.142, 0.142
+distvalues 0.142
+while : 0.142, 0.143
+while : 0.142, 0.143
+distvalues 0.142
+while : 0.142, 0.142
+while : 0.142, 0.142
+distvalues 0.138
+while : 0.138, 0.142
+while : 0.138, 0.142
+distvalues 0.137
+while : 0.137, 0.142
+while : 0.137, 0.142
+distvalues 0.137
+while : 0.137, 0.142
+while : 0.137, 0.142
+distvalues 0.137
+while : 0.137, 0.142
+while : 0.137, 0.142
+distvalues 0.138
+while : 0.138, 0.138
+while : 0.138, 0.138
+distvalues 0.138
+while : 0.138, 0.137
+while : 0.138, 0.137
+distvalues 0.139
+while : 0.139, 0.137
+while : 0.139, 0.137
+distvalues 0.14
+while : 0.14, 0.137
+while : 0.14, 0.137
+distvalues 0.14
+while : 0.14, 0.138
+while : 0.14, 0.138
+distvalues 0.139
+while : 0.139, 0.138
+while : 0.139, 0.138
+distvalues 0.138
+while : 0.138, 0.139
+while : 0.138, 0.139
+distvalues 0.138
+while : 0.138, 0.14
+while : 0.138, 0.14
+distvalues 0.137
+while : 0.137, 0.14
+while : 0.137, 0.14
+distvalues 0.137
+while : 0.137, 0.139
+while : 0.137, 0.139
+distvalues 0.137
+while : 0.137, 0.138
+while : 0.137, 0.138
+distvalues 0.136
+while : 0.136, 0.138
+while : 0.136, 0.138
+distvalues 0.134
+while : 0.134, 0.137
+while : 0.134, 0.137
+distvalues 0.133
+while : 0.133, 0.137
+while : 0.133, 0.137
+distvalues 0.133
+while : 0.133, 0.137
+while : 0.133, 0.137
+distvalues 0.134
+while : 0.134, 0.136
+while : 0.134, 0.136
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.133
+while : 0.134, 0.133
+distvalues 0.134
+while : 0.134, 0.133
+while : 0.134, 0.133
+distvalues 0.133
+while : 0.133, 0.134
+while : 0.133, 0.134
+distvalues 0.133
+while : 0.133, 0.134
+while : 0.133, 0.134
+distvalues 0.132
+while : 0.132, 0.134
+while : 0.132, 0.134
+distvalues 0.13
+while : 0.13, 0.134
+while : 0.13, 0.134
+distvalues 0.13
+while : 0.13, 0.133
+while : 0.13, 0.133
+distvalues 0.129
+while : 0.129, 0.133
+while : 0.129, 0.133
+distvalues 0.126
+while : 0.126, 0.132
+while : 0.126, 0.132
+distvalues 0.126
+while : 0.126, 0.13
+while : 0.126, 0.13
+distvalues 0.126
+while : 0.126, 0.13
+while : 0.126, 0.13
+distvalues 0.125
+while : 0.125, 0.129
+while : 0.125, 0.129
+distvalues 0.125
+while : 0.125, 0.126
+while : 0.125, 0.126
+distvalues 0.123
+while : 0.123, 0.126
+while : 0.123, 0.126
+distvalues 0.122
+while : 0.122, 0.126
+while : 0.122, 0.126
+distvalues 0.122
+while : 0.122, 0.125
+while : 0.122, 0.125
+distvalues 0.121
+while : 0.121, 0.125
+while : 0.121, 0.125
+distvalues 0.12
+while : 0.12, 0.123
+while : 0.12, 0.123
+distvalues 0.12
+while : 0.12, 0.122
+while : 0.12, 0.122
+distvalues 0.119
+while : 0.119, 0.122
+while : 0.119, 0.122
+distvalues 0.117
+while : 0.117, 0.121
+while : 0.117, 0.121
+distvalues 0.117
+while : 0.117, 0.12
+while : 0.117, 0.12
+distvalues 0.116
+while : 0.116, 0.12
+while : 0.116, 0.12
+distvalues 0.115
+while : 0.115, 0.119
+while : 0.115, 0.119
+distvalues 0.115
+while : 0.115, 0.117
+while : 0.115, 0.117
+distvalues 0.184
+while : 0.184, 0.117
+while : 0.184, 0.117
+distvalues 0.283
+while : 0.283, 0.116
+while : 0.283, 0.116
+distvalues 0.283
+while : 0.283, 0.115
+while : 0.283, 0.115
+distvalues 0.384
+while : 0.384, 0.115
+while : 0.384, 0.115
+distvalues 0.437
+while : 0.437, 0.184
+while : 0.437, 0.184
+distvalues 0.437
+while : 0.437, 0.283
+while : 0.437, 0.283
+distvalues 0.474
+while : 0.474, 0.283
+while : 0.474, 0.283
+distvalues 0.497
+while : 0.497, 0.384
+while : 0.497, 0.384
+distvalues 0.497
+while : 0.497, 0.437
+while : 0.497, 0.437
+distvalues 0.441
+while : 0.441, 0.437
+while : 0.441, 0.437
+distvalues 0.435
+while : 0.435, 0.474
+while : 0.435, 0.474
+distvalues 0.435
+while : 0.435, 0.497
+while : 0.435, 0.497
+distvalues 0.443
+while : 0.443, 0.497
+while : 0.443, 0.497
+distvalues 0.504
+while : 0.504, 0.441
+while : 0.504, 0.441
+distvalues 0.504
+while : 0.504, 0.435
+while : 0.504, 0.435
+distvalues 0.456
+while : 0.456, 0.435
+while : 0.456, 0.435
+distvalues 0.451
+while : 0.451, 0.443
+while : 0.451, 0.443
+distvalues 0.451
+while : 0.451, 0.504
+while : 0.451, 0.504
+distvalues 0.494
+while : 0.494, 0.504
+while : 0.494, 0.504
+distvalues 0.467
+while : 0.467, 0.456
+while : 0.467, 0.456
+distvalues 0.467
+while : 0.467, 0.451
+while : 0.467, 0.451
+distvalues 0.447
+while : 0.447, 0.451
+while : 0.447, 0.451
+distvalues 0.428
+while : 0.428, 0.494
+while : 0.428, 0.494
+distvalues 0.428
+while : 0.428, 0.467
+while : 0.428, 0.467
+distvalues 0.485
+while : 0.485, 0.467
+while : 0.485, 0.467
+distvalues 0.476
+while : 0.476, 0.447
+while : 0.476, 0.447
+distvalues 0.476
+while : 0.476, 0.428
+while : 0.476, 0.428
+distvalues 0.462
+while : 0.462, 0.428
+while : 0.462, 0.428
+distvalues 0.471
+while : 0.471, 0.485
+while : 0.471, 0.485
+distvalues 0.491
+while : 0.491, 0.476
+while : 0.491, 0.476
+distvalues 0.491
+while : 0.491, 0.476
+while : 0.491, 0.476
+distvalues 0.486
+while : 0.486, 0.462
+while : 0.486, 0.462
+distvalues 0.448
+while : 0.448, 0.471
+while : 0.448, 0.471
+distvalues 0.448
+while : 0.448, 0.491
+while : 0.448, 0.491
+distvalues 0.468
+while : 0.468, 0.491
+while : 0.468, 0.491
+distvalues 0.459
+while : 0.459, 0.486
+while : 0.459, 0.486
+distvalues 0.459
+while : 0.459, 0.448
+while : 0.459, 0.448
+distvalues 0.443
+while : 0.443, 0.448
+while : 0.443, 0.448
+distvalues 0.441
+while : 0.441, 0.468
+while : 0.441, 0.468
+distvalues 0.441
+while : 0.441, 0.459
+while : 0.441, 0.459
+distvalues 0.462
+while : 0.462, 0.459
+while : 0.462, 0.459
+distvalues 0.48
+while : 0.48, 0.443
+while : 0.48, 0.443
+distvalues 0.48
+while : 0.48, 0.441
+while : 0.48, 0.441
+distvalues 0.517
+while : 0.517, 0.441
+while : 0.517, 0.441
+distvalues 0.465
+while : 0.465, 0.462
+while : 0.465, 0.462
+distvalues 0.465
+while : 0.465, 0.48
+while : 0.465, 0.48
+distvalues 0.469
+while : 0.469, 0.48
+while : 0.469, 0.48
+distvalues 0.495
+while : 0.495, 0.517
+while : 0.495, 0.517
+distvalues 0.495
+while : 0.495, 0.465
+while : 0.495, 0.465
+distvalues 0.466
+while : 0.466, 0.465
+while : 0.466, 0.465
+distvalues 0.443
+while : 0.443, 0.469
+while : 0.443, 0.469
+distvalues 0.443
+while : 0.443, 0.495
+while : 0.443, 0.495
+distvalues 0.427
+while : 0.427, 0.495
+while : 0.427, 0.495
+distvalues 0.451
+while : 0.451, 0.466
+while : 0.451, 0.466
+distvalues 0.451
+while : 0.451, 0.443
+while : 0.451, 0.443
+distvalues 0.471
+while : 0.471, 0.443
+while : 0.471, 0.443
+distvalues 0.472
+while : 0.472, 0.427
+while : 0.472, 0.427
+distvalues 0.472
+while : 0.472, 0.451
+while : 0.472, 0.451
+distvalues 0.459
+while : 0.459, 0.451
+while : 0.459, 0.451
+distvalues 0.554
+while : 0.554, 0.471
+while : 0.554, 0.471
+distvalues 0.554
+while : 0.554, 0.472
+while : 0.554, 0.472
+distvalues 0.556
+while : 0.556, 0.472
+while : 0.556, 0.472
+distvalues 0.487
+while : 0.487, 0.459
+while : 0.487, 0.459
+distvalues 0.487
+while : 0.487, 0.554
+while : 0.487, 0.554
+distvalues 0.463
+while : 0.463, 0.554
+while : 0.463, 0.554
+distvalues 0.493
+while : 0.493, 0.556
+while : 0.493, 0.556
+distvalues 0.493
+while : 0.493, 0.487
+while : 0.493, 0.487
+distvalues 0.522
+while : 0.522, 0.487
+while : 0.522, 0.487
+distvalues 0.486
+while : 0.486, 0.463
+while : 0.486, 0.463
+distvalues 0.486
+while : 0.486, 0.493
+while : 0.486, 0.493
+distvalues 0.47
+while : 0.47, 0.493
+while : 0.47, 0.493
+distvalues 0.461
+while : 0.461, 0.522
+while : 0.461, 0.522
+distvalues 0.461
+while : 0.461, 0.486
+while : 0.461, 0.486
+distvalues 0.457
+while : 0.457, 0.486
+while : 0.457, 0.486
+distvalues 0.505
+while : 0.505, 0.47
+while : 0.505, 0.47
+distvalues 0.505
+while : 0.505, 0.461
+while : 0.505, 0.461
+distvalues 0.497
+while : 0.497, 0.461
+while : 0.497, 0.461
+distvalues 0.462
+while : 0.462, 0.457
+while : 0.462, 0.457
+distvalues 0.462
+while : 0.462, 0.505
+while : 0.462, 0.505
+distvalues 0.509
+while : 0.509, 0.505
+while : 0.509, 0.505
+distvalues 0.495
+while : 0.495, 0.497
+while : 0.495, 0.497
+distvalues 0.495
+while : 0.495, 0.462
+while : 0.495, 0.462
+distvalues 0.487
+while : 0.487, 0.462
+while : 0.487, 0.462
+distvalues 0.538
+while : 0.538, 0.509
+while : 0.538, 0.509
+distvalues 0.538
+while : 0.538, 0.495
+while : 0.538, 0.495
+distvalues 0.479
+while : 0.479, 0.495
+while : 0.479, 0.495
+distvalues 0.47
+while : 0.47, 0.487
+while : 0.47, 0.487
+distvalues 0.517
+while : 0.517, 0.538
+while : 0.517, 0.538
+distvalues 0.517
+while : 0.517, 0.538
+while : 0.517, 0.538
+distvalues 0.508
+while : 0.508, 0.479
+while : 0.508, 0.479
+distvalues 0.48
+while : 0.48, 0.47
+while : 0.48, 0.47
+distvalues 0.48
+while : 0.48, 0.517
+while : 0.48, 0.517
+distvalues 0.447
+while : 0.447, 0.517
+while : 0.447, 0.517
+distvalues 0.469
+while : 0.469, 0.508
+while : 0.469, 0.508
+distvalues 0.469
+while : 0.469, 0.48
+while : 0.469, 0.48
+distvalues 0.663
+while : 0.663, 0.48
+while : 0.663, 0.48
+distvalues 0.857
+while : 0.857, 0.447
+while : 0.857, 0.447
+distvalues 0.857
+while : 0.857, 0.469
+while : 0.857, 0.469
+distvalues 0.648
+while : 0.648, 0.469
+while : 0.648, 0.469
+distvalues 0.18
+while : 0.18, 0.663
+if 1 : 0.18, 0.18
+while : 0.18, 0.663
+if 1 : 0.18, 0.18
+distvalues 0.18
+while : 0.18, 0.857
+if 1 : 0.18, 0.18
+while : 0.18, 0.857
+if 1 : 0.18, 0.18
+distvalues 0.134
+while : 0.134, 0.857
+if 1 : 0.134, 0.134
+while : 0.134, 0.857
+if 1 : 0.134, 0.134
+distvalues 0.13
+while : 0.13, 0.648
+if 1 : 0.13, 0.13
+while : 0.13, 0.648
+if 1 : 0.13, 0.13
+distvalues 0.13
+while : 0.13, 0.18
+while : 0.13, 0.18
+distvalues 0.131
+while : 0.131, 0.18
+while : 0.131, 0.18
+distvalues 0.133
+while : 0.133, 0.134
+while : 0.133, 0.134
+distvalues 0.133
+while : 0.133, 0.13
+while : 0.133, 0.13
+distvalues 0.134
+while : 0.134, 0.13
+while : 0.134, 0.13
+distvalues 0.134
+while : 0.134, 0.131
+while : 0.134, 0.131
+distvalues 0.134
+while : 0.134, 0.133
+while : 0.134, 0.133
+distvalues 0.134
+while : 0.134, 0.133
+while : 0.134, 0.133
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.134
+while : 0.134, 0.134
+while : 0.134, 0.134
+distvalues 0.136
+while : 0.136, 0.134
+while : 0.136, 0.134
+distvalues 0.138
+while : 0.138, 0.134
+while : 0.138, 0.134
+distvalues 0.138
+while : 0.138, 0.134
+while : 0.138, 0.134
+distvalues 0.138
+while : 0.138, 0.134
+while : 0.138, 0.134
+distvalues 0.139
+while : 0.139, 0.136
+while : 0.139, 0.136
+distvalues 0.139
+while : 0.139, 0.138
+while : 0.139, 0.138
+distvalues 0.14
+while : 0.14, 0.138
+while : 0.14, 0.138
+distvalues 0.141
+while : 0.141, 0.138
+while : 0.141, 0.138
+distvalues 0.141
+while : 0.141, 0.139
+while : 0.141, 0.139
+distvalues 0.143
+while : 0.143, 0.139
+while : 0.143, 0.139
+distvalues 0.144
+while : 0.144, 0.14
+while : 0.144, 0.14
+distvalues 0.144
+while : 0.144, 0.141
+while : 0.144, 0.141
+distvalues 0.145
+while : 0.145, 0.141
+while : 0.145, 0.141
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.143
+while : 0.143, 0.144
+while : 0.143, 0.144
+distvalues 0.145
+while : 0.145, 0.144
+while : 0.145, 0.144
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.145
+while : 0.145, 0.143
+while : 0.145, 0.143
+distvalues 0.145
+while : 0.145, 0.143
+while : 0.145, 0.143
+distvalues 0.144
+while : 0.144, 0.145
+while : 0.144, 0.145
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.146
+while : 0.146, 0.144
+while : 0.146, 0.144
+distvalues 0.146
+while : 0.146, 0.145
+while : 0.146, 0.145
+distvalues 0.148
+while : 0.148, 0.145
+while : 0.148, 0.145
+distvalues 0.148
+while : 0.148, 0.145
+while : 0.148, 0.145
+distvalues 0.148
+while : 0.148, 0.146
+while : 0.148, 0.146
+distvalues 0.147
+while : 0.147, 0.146
+while : 0.147, 0.146
+distvalues 0.145
+while : 0.145, 0.148
+while : 0.145, 0.148
+distvalues 0.145
+while : 0.145, 0.148
+while : 0.145, 0.148
+distvalues 0.145
+while : 0.145, 0.148
+while : 0.145, 0.148
+distvalues 0.145
+while : 0.145, 0.147
+while : 0.145, 0.147
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.146
+while : 0.146, 0.145
+while : 0.146, 0.145
+distvalues 0.146
+while : 0.146, 0.145
+while : 0.146, 0.145
+distvalues 0.147
+while : 0.147, 0.145
+while : 0.147, 0.145
+distvalues 0.147
+while : 0.147, 0.145
+while : 0.147, 0.145
+distvalues 0.147
+while : 0.147, 0.146
+while : 0.147, 0.146
+distvalues 0.147
+while : 0.147, 0.146
+while : 0.147, 0.146
+distvalues 0.147
+while : 0.147, 0.147
+while : 0.147, 0.147
+distvalues 0.147
+while : 0.147, 0.147
+while : 0.147, 0.147
+distvalues 0.147
+while : 0.147, 0.147
+while : 0.147, 0.147
+distvalues 0.147
+while : 0.147, 0.147
+while : 0.147, 0.147
+distvalues 0.147
+while : 0.147, 0.147
+while : 0.147, 0.147
+distvalues 0.146
+while : 0.146, 0.147
+while : 0.146, 0.147
+distvalues 0.145
+while : 0.145, 0.147
+while : 0.145, 0.147
+distvalues 0.145
+while : 0.145, 0.147
+while : 0.145, 0.147
+distvalues 0.145
+while : 0.145, 0.147
+while : 0.145, 0.147
+distvalues 0.144
+while : 0.144, 0.146
+while : 0.144, 0.146
+distvalues 0.144
+while : 0.144, 0.145
+while : 0.144, 0.145
+distvalues 0.144
+while : 0.144, 0.145
+while : 0.144, 0.145
+distvalues 0.145
+while : 0.145, 0.145
+while : 0.145, 0.145
+distvalues 0.145
+while : 0.145, 0.144
+while : 0.145, 0.144
+distvalues 0.144
+while : 0.144, 0.144
+while : 0.144, 0.144
+distvalues 0.143
+while : 0.143, 0.144
+while : 0.143, 0.144
+distvalues 0.143
+while : 0.143, 0.145
+while : 0.143, 0.145
+distvalues 0.142
+while : 0.142, 0.145
+while : 0.142, 0.145
+distvalues 0.143
+while : 0.143, 0.144
+while : 0.143, 0.144
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.143
+while : 0.143, 0.142
+while : 0.143, 0.142
+distvalues 0.143
+while : 0.143, 0.143
+while : 0.143, 0.143
+distvalues 0.142
+while : 0.142, 0.143
+while : 0.142, 0.143
+distvalues 0.141
+while : 0.141, 0.143
+while : 0.141, 0.143
+distvalues 0.141
+while : 0.141, 0.143
+while : 0.141, 0.143
+distvalues 0.177
+while : 0.177, 0.143
+while : 0.177, 0.143
+distvalues 0.295
+while : 0.295, 0.142
+while : 0.295, 0.142
+distvalues 0.295
+while : 0.295, 0.141
+while : 0.295, 0.141
+distvalues 0.394
+while : 0.394, 0.141
+while : 0.394, 0.141
+distvalues 0.433
+while : 0.433, 0.177
+if 2 : 0.433, 0.433
+while : 0.433, 0.177
+if 2 : 0.433, 0.433
+distvalues 0.433
+while : 0.433, 0.295
+while : 0.433, 0.295
+distvalues 0.438
+while : 0.438, 0.295
+while : 0.438, 0.295
+distvalues 0.528
+while : 0.528, 0.394
+while : 0.528, 0.394
+distvalues 0.528
+while : 0.528, 0.433
+while : 0.528, 0.433
+distvalues 0.477
+while : 0.477, 0.433
+while : 0.477, 0.433
+distvalues 0.452
+while : 0.452, 0.438
+swap state 2
+transition <Statehelpers.Transition.Transition object at 0x7fff51130790>
+got new transition
+var1 = 0
+var2 = 14.761082172393799
+itemInForc = False
+timeSTS = 0
+distancedrivenSTS = 0
+timesInLinefollow = 1
+following_line = False
+crossing_counter = 0
+
+<States.PullLuggage.PullLuggage object at 0x7fff51133e50>
+Executing state Pullluggage
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+starting move agin-----
+0.429
+state1
+calc time: 353.601103
+calc time: 757.028361
+calc time: 1159.508846
+calc time: 1554.965417
+calc time: 1957.757975
+calc time: 2359.68913
+state 2
+pose.tripb: 0.0013438999999999999
+state 2
+pose.tripb: 0.0030482499999999997
+state 2
+pose.tripb: 0.00450905
+state 2
+pose.tripb: 0.00454425
+state 2
+pose.tripb: 0.0041838
+state 2
+pose.tripb: 0.00362755
+state 2
+pose.tripb: 0.0030650499999999997
+state 2
+pose.tripb: 0.00196855
+state 2
+pose.tripb: 0.00155055
+state 2
+pose.tripb: 0.00120405
+state 2
+pose.tripb: 0.0009343499999999999
+state 2
+pose.tripb: 0.0003887499999999999
+state 2
+pose.tripb: -0.00173835
+state 2
+pose.tripb: -0.0029907
+state 2
+pose.tripb: -0.0037232500000000004
+state 2
+pose.tripb: -0.004993250000000001
+state 2
+pose.tripb: -0.006253250000000001
+state 2
+pose.tripb: -0.007396250000000001
+state 2
+pose.tripb: -0.008381850000000001
+state 2
+pose.tripb: -0.009360850000000002
+state 2
+pose.tripb: -0.010629100000000002
+state 2
+pose.tripb: -0.012125500000000003
+state 2
+pose.tripb: -0.013601500000000002
+state 2
+pose.tripb: -0.017099400000000004
+state 2
+pose.tripb: -0.019022200000000003
+state 2
+pose.tripb: -0.020754700000000004
+state 2
+pose.tripb: -0.022549900000000005
+state 2
+pose.tripb: -0.024529900000000004
+state 2
+pose.tripb: -0.026553900000000005
+state 2
+pose.tripb: -0.028503100000000007
+state 2
+pose.tripb: -0.030447750000000006
+state 2
+pose.tripb: -0.03441720000000001
+state 2
+pose.tripb: -0.03644730000000001
+state 2
+pose.tripb: -0.03820330000000001
+state 2
+pose.tripb: -0.04034215000000001
+state 2
+pose.tripb: -0.04238965000000001
+state 2
+pose.tripb: -0.04446780000000001
+state 2
+pose.tripb: -0.046550400000000006
+state 2
+pose.tripb: -0.04854800000000001
+state 2
+pose.tripb: -0.05257080000000001
+state 2
+pose.tripb: -0.05455995000000001
+state 2
+pose.tripb: -0.05671995000000001
+state 2
+pose.tripb: -0.05857235000000001
+state 2
+pose.tripb: -0.06052085000000001
+state 2
+pose.tripb: -0.062403200000000006
+state 2
+pose.tripb: -0.06430335000000001
+state 2
+pose.tripb: -0.06607655000000001
+state 2
+pose.tripb: -0.06781205000000001
+state 2
+pose.tripb: -0.07165710000000002
+state 2
+pose.tripb: -0.07329300000000001
+state 2
+pose.tripb: -0.07510200000000002
+state 2
+pose.tripb: -0.07682415000000002
+state 2
+pose.tripb: -0.07854765000000002
+state 2
+pose.tripb: -0.08037510000000002
+state 2
+pose.tripb: -0.08206290000000002
+state 2
+pose.tripb: -0.08388290000000002
+state 2
+pose.tripb: -0.08720490000000003
+state 2
+pose.tripb: -0.08879355000000003
+state 2
+pose.tripb: -0.09028075000000002
+state 2
+pose.tripb: -0.09194125000000002
+state 2
+pose.tripb: -0.09361825000000001
+state 2
+pose.tripb: -0.09528775000000002
+state 2
+pose.tripb: -0.09707965000000002
+state 2
+pose.tripb: -0.09873950000000002
+state 2
+pose.tripb: -0.10195515000000002
+state 2
+pose.tripb: -0.10376630000000002
+state 2
+pose.tripb: -0.10554630000000002
+state 2
+pose.tripb: -0.10728440000000003
+state 2
+pose.tripb: -0.10905820000000004
+state 2
+pose.tripb: -0.11069165000000003
+state 2
+pose.tripb: -0.11228005000000003
+state 2
+pose.tripb: -0.11390005000000003
+state 2
+pose.tripb: -0.11555990000000003
+state 2
+pose.tripb: -0.11879745000000003
+state 2
+pose.tripb: -0.12071310000000003
+state 2
+pose.tripb: -0.12252210000000004
+state 2
+pose.tripb: -0.12428610000000004
+state 2
+pose.tripb: -0.12603940000000005
+state 2
+pose.tripb: -0.12782140000000006
+state 2
+pose.tripb: -0.12965220000000005
+state 2
+pose.tripb: -0.13322350000000005
+state 2
+pose.tripb: -0.13502750000000005
+state 2
+pose.tripb: -0.13714115000000004
+state 2
+pose.tripb: -0.13905020000000004
+state 2
+pose.tripb: -0.14085690000000003
+state 2
+pose.tripb: -0.14269290000000004
+state 2
+pose.tripb: -0.14446170000000003
+state 2
+pose.tripb: -0.14632180000000003
+state 2
+pose.tripb: -0.14832430000000002
+state 2
+pose.tripb: -0.15213790000000002
+state 2
+pose.tripb: -0.15404250000000003
+state 2
+pose.tripb: -0.15592485000000003
+state 2
+pose.tripb: -0.15805145000000004
+state 2
+pose.tripb: -0.15990455000000003
+state 2
+pose.tripb: -0.16181355000000003
+state 2
+pose.tripb: -0.16375820000000002
+state 2
+pose.tripb: -0.16567070000000003
+state 2
+pose.tripb: -0.16951040000000003
+state 2
+pose.tripb: -0.17138240000000005
+state 2
+pose.tripb: -0.17326475000000005
+state 2
+pose.tripb: -0.17514710000000006
+state 2
+pose.tripb: -0.17699385000000006
+state 2
+pose.tripb: -0.17879165000000005
+state 2
+pose.tripb: -0.18065915000000005
+state 2
+pose.tripb: -0.18276785000000004
+state 2
+pose.tripb: -0.18638835000000004
+state 2
+pose.tripb: -0.18827835000000004
+state 2
+pose.tripb: -0.19008675000000003
+state 2
+pose.tripb: -0.19188900000000003
+state 2
+pose.tripb: -0.19367345000000002
+state 2
+pose.tripb: -0.19540910000000003
+state 2
+pose.tripb: -0.19728370000000003
+state 2
+pose.tripb: -0.19907260000000004
+state 2
+pose.tripb: -0.20273430000000006
+state 2
+pose.tripb: -0.20441305000000007
+state 2
+pose.tripb: -0.20623105000000005
+state 2
+pose.tripb: -0.20825575000000004
+state 2
+pose.tripb: -0.20997175000000004
+state 2
+pose.tripb: -0.21175620000000003
+state 2
+pose.tripb: -0.21346780000000004
+state 2
+pose.tripb: -0.21521460000000003
+state 2
+pose.tripb: -0.21703915000000004
+state 2
+pose.tripb: -0.22071765000000004
+state 2
+pose.tripb: -0.22249965000000005
+state 2
+pose.tripb: -0.22418175000000004
+state 2
+pose.tripb: -0.22593295000000005
+state 2
+pose.tripb: -0.22766545000000005
+state 2
+pose.tripb: -0.22937265000000004
+state 2
+pose.tripb: -0.23114585000000004
+state 2
+pose.tripb: -0.23285910000000004
+state 2
+pose.tripb: -0.23462575000000005
+state 2
+pose.tripb: -0.23831855000000005
+state 2
+pose.tripb: -0.24016775000000004
+state 2
+pose.tripb: -0.24171890000000004
+state 2
+pose.tripb: -0.24344690000000005
+state 2
+pose.tripb: -0.24547060000000004
+state 2
+pose.tripb: -0.24726160000000003
+state 2
+pose.tripb: -0.24898640000000002
+state 2
+pose.tripb: -0.2506916
+state 2
+pose.tripb: -0.25421520000000003
+state 2
+pose.tripb: -0.2560062
+state 2
+pose.tripb: -0.25779955000000004
+state 2
+pose.tripb: -0.25962850000000004
+state 2
+pose.tripb: -0.26156890000000005
+state 2
+pose.tripb: -0.26338690000000003
+state 2
+pose.tripb: -0.26513995
+state 2
+pose.tripb: -0.26687795000000003
+state 2
+pose.tripb: -0.2704513
+state 2
+pose.tripb: -0.27221080000000003
+state 2
+pose.tripb: -0.2741218
+state 2
+pose.tripb: -0.27590995
+state 2
+pose.tripb: -0.27773000000000003
+state 2
+pose.tripb: -0.27956080000000005
+state 2
+pose.tripb: -0.28118030000000005
+state 2
+pose.tripb: -0.28299145000000003
+state 2
+pose.tripb: -0.28674705000000006
+state 2
+pose.tripb: -0.28859655000000006
+state 2
+pose.tripb: -0.29032350000000007
+state 2
+pose.tripb: -0.29215500000000005
+state 2
+pose.tripb: -0.29389740000000003
+state 2
+pose.tripb: -0.29571090000000005
+state 2
+pose.tripb: -0.29749290000000006
+state 2
+pose.tripb: -0.29919280000000004
+state 2
+pose.tripb: -0.30292990000000003
+state 2
+pose.tripb: -0.30461645000000004
+state 2
+pose.tripb: -0.30637420000000004
+state 2
+pose.tripb: -0.30818320000000005
+state 2
+pose.tripb: -0.30989040000000007
+state 2
+pose.tripb: -0.3116904000000001
+state 2
+pose.tripb: -0.3134303500000001
+state 2
+pose.tripb: -0.31516735000000007
+state 2
+pose.tripb: -0.31716715000000006
+state 2
+pose.tripb: -0.3207360000000001
+state 2
+pose.tripb: -0.3225495000000001
+state 2
+pose.tripb: -0.3242730000000001
+state 2
+pose.tripb: -0.32604620000000006
+state 2
+pose.tripb: -0.3278662500000001
+state 2
+pose.tripb: -0.3296418000000001
+state 2
+pose.tripb: -0.3314913000000001
+state 2
+pose.tripb: -0.3333085000000001
+state 2
+pose.tripb: -0.33687925000000013
+state 2
+pose.tripb: -0.33882945000000014
+state 2
+pose.tripb: -0.3406183500000001
+state 2
+pose.tripb: -0.3424473000000001
+state 2
+pose.tripb: -0.34424510000000014
+state 2
+pose.tripb: -0.34603150000000016
+state 2
+pose.tripb: -0.34782700000000016
+state 2
+pose.tripb: -0.34962925000000017
+state 2
+pose.tripb: -0.35150125000000015
+state 2
+pose.tripb: -0.35524365000000013
+state 2
+pose.tripb: -0.35709165000000015
+state 2
+pose.tripb: -0.35884285000000016
+state 2
+pose.tripb: -0.36071505000000015
+state 2
+pose.tripb: -0.36259830000000015
+state 2
+pose.tripb: -0.36419030000000013
+state 2
+pose.tripb: -0.36779630000000013
+state 2
+pose.tripb: -0.3697812500000001
+state 2
+pose.tripb: -0.37158125000000014
+state 2
+pose.tripb: -0.3732752500000001
+state 2
+pose.tripb: -0.3750088500000001
+state 2
+pose.tripb: -0.3767265500000001
+state 2
+pose.tripb: -0.3783775000000001
+state 2
+pose.tripb: -0.3801575000000001
+state 2
+pose.tripb: -0.3836119500000001
+state 2
+pose.tripb: -0.3856018500000001
+state 2
+pose.tripb: -0.3873298500000001
+state 2
+pose.tripb: -0.3890370500000001
+state 2
+pose.tripb: -0.39080815000000013
+state 2
+pose.tripb: -0.39249470000000014
+state 2
+pose.tripb: -0.39419990000000016
+state 2
+pose.tripb: -0.39598805000000015
+state 2
+pose.tripb: -0.3976019000000001
+state 2
+pose.tripb: -0.40122620000000014
+state 2
+pose.tripb: -0.40277415000000016
+state 2
+pose.tripb: -0.4045876500000002
+state 2
+pose.tripb: -0.4064276500000002
+state 2
+pose.tripb: -0.4080806500000002
+state 2
+pose.tripb: -0.4100557000000002
+state 2
+pose.tripb: -0.4118422000000002
+state 2
+pose.tripb: -0.4135890000000002
+state 2
+pose.tripb: -0.4171791500000002
+state 2
+pose.tripb: -0.41896565000000024
+state 2
+pose.tripb: -0.42076345000000026
+state 2
+pose.tripb: -0.42254790000000025
+state 2
+pose.tripb: -0.42435460000000025
+state 2
+pose.tripb: -0.4261257000000003
+state 2
+pose.tripb: -0.4279253000000003
+state 2
+pose.tripb: -0.4300225000000003
+state 2
+pose.tripb: -0.4318540000000003
+state 2
+pose.tripb: -0.4355475000000003
+state 2
+pose.tripb: -0.4374195000000003
+state 2
+pose.tripb: -0.4395315000000003
+state 2
+pose.tripb: -0.4412994000000003
+state 2
+pose.tripb: -0.4433442000000003
+state 2
+pose.tripb: -0.4452310000000003
+state 2
+pose.tripb: -0.4471489500000003
+state 2
+pose.tripb: -0.44899695000000034
+state 2
+pose.tripb: -0.4526421500000003
+state 2
+pose.tripb: -0.4545429500000003
+state 2
+pose.tripb: -0.45618095000000025
+state 2
+pose.tripb: -0.4578853000000003
+state 2
+pose.tripb: -0.46553080000000024
+state 2
+pose.tripb: -0.46733750000000024
+state 2
+pose.tripb: -0.4672574000000002
+state 2
+pose.tripb: -0.46735860000000023
+state 2
+pose.tripb: -0.47157995000000025
+state 2
+pose.tripb: -0.4738339500000002
+state 2
+pose.tripb: -0.4753414500000002
+stopping
+mindist value: 2------------------
+transition <Statehelpers.Transition.Transition object at 0x7fff51131b50>
+got new transition
+var1 = 1
+var2 = -1745487499266.7097
+itemInForc = False
+timeSTS = 0
+distancedrivenSTS = 0
+timesInLinefollow = 1
+following_line = False
+crossing_counter = 0
+
+<States.DriveToCube.DriveToCube object at 0x7fff51159450>
+Executing state 1
+aruco state machine
+[53]
+[53, 20]
+[53, 20] [array([ 0.85454741, -0.14693512,  0.03006018,  1.        ]), array([ 1.01624467, -0.23155478,  0.02607131,  1.        ])] [array([[-0.15338009],
+       [-0.2633697 ],
+       [ 3.15368817]]), array([[ 0.79798564],
+       [-0.49407014],
+       [-1.61523103]])]
+-0.26033552855564224
+0.8835129598601988 -0.13912505214131457
+-0.4742131956990832
+0.8835129598601988 -0.13912505214131457
+[53, 20]
+aruco state 1
+[53, 20]
+[53, 20] [array([ 0.85454741, -0.14693512,  0.03006018,  1.        ]), array([ 0.99315731, -0.2255978 ,  0.02936201,  1.        ])] [array([[-0.15338009],
+       [-0.2633697 ],
+       [ 3.15368817]]), array([[ 0.82340496],
+       [-0.48840127],
+       [-1.56995703]])]
+-0.26033552855564224
+0.8835129598601988 -0.13912505214131457
+-0.4692146778330003
+0.8835129598601988 -0.13912505214131457
+cube found: True, target_robot_x: 0.8835129598601988, target_robot_y: -0.13912505214131457
+cube found
+[53]
+aruco state 2
+[53, 20]
+aruco state 3
+[53]
+[53] [array([ 0.38147449, -0.06792273,  0.01808955,  1.        ])] [array([[-0.09697879],
+       [-0.24730374],
+       [ 3.1409929 ]])]
+-0.24479062542096225
+0.4105617704787235 -0.0605790096530319
+cube found: True, target_robot_x: 0.4105617704787235, target_robot_y: -0.0605790096530319
+[53, 20]
+aruco state 4
+[53, 20]
+aruco state 5
+[53, 20]
+[53, 20] [array([0.15648381, 0.01977872, 0.11737947, 1.        ]), array([ 0.2303003 , -0.00265656,  0.1768271 ,  1.        ])] [array([[-1.10978812],
+       [ 0.48209628],
+       [-2.45608092]]), array([[-0.75545702],
+       [-0.79304762],
+       [-1.51939715]])]
+0.4636375461119018
+0.18306456364044169 0.005869594185327507
+-0.712495026198072
+0.18306456364044169 0.005869594185327507
+[53, 20, 5]
+aruco state 7
+[53, 20, 5]
+luggage not found
+[13, 10, 53]
+aruco state 7
+[13, 10, 53]
+Found IDs: [13, 10]
+Found luggage area, 2.199232030883129, -0.9141459675061833
+[10, 53, 13]
+aruco state 8
+[13, 10, 53]
+aruco test state (9)
+[13, 10, 53]
+Found IDs: [13, 10]
+Found luggage: [13, 10]
+At: [array([ 1.09656177, -0.16077997,  0.19279461,  1.        ]), array([1.1608646 , 0.17707572, 0.19616309, 1.        ])]
+[13, 10, 53]
+[13, 10, 53]
+Found IDs: [13, 10]
+Found luggage area
+calc center: [1.22289575 0.03499316 0.19430531] 	 xtra rot: [-0.24709697215752552, -0.24709697215752552]
+current,destination:  (10, 13) (16, 17)
+driveangle:  -2.356194490192345
+moving around target
+radius : 0.75
+driveangle + extra_travel : -2.6032914623498704
+centercords : [1.22289575 0.03499316 0.19430531]
+centercords[0] : 1.2228957489096737
+centercords[1] : 0.03499316006118694
+1.2228957489096737
+0.03499316006118694
+0.75
+-2.6032914623498704
+-1.0
+move around target, sign: -1.0
+full dist: 1.9524685967624027
+[16, 17, 53]
+Found IDs: [16, 17]
+transition <Statehelpers.Transition.Transition object at 0x7fff51133d50>
+got new transition
+var1 = 1
+var2 = -1745487499266.7097
+itemInForc = False
+timeSTS = 0
+distancedrivenSTS = 0
+timesInLinefollow = 1
+following_line = False
+crossing_counter = 0
+
+<States.SortingStationToBall.SortingStationToBall object at 0x7fff516bef10>
+Executing SortingStationToBall
+state 1
+[53, 16]
+Found IDs: [16]
+found id to turn
+16
+[array([[ 0.23473257],
+       [-0.44040722],
+       [-0.05255011]])]
+0.9640059939682913
+done
+start following with speed: 0.2 and ref_pos: 0
+cross cnt: 1 	 tripB: 0.4628658999999998
+timesInLine: 1 	 timesInIntermediate: 0
+cross cnt: 2 	 tripB: 0.9315241000000003
+timesInLine: 1 	 timesInIntermediate: 0
+start following with speed: 0.3 and ref_pos: -1.05
+0.3
+0
+0.35
+-1.5707963267948966
+-1.0
+move around target, sign: -1.0
+full dist: 0.5497787143782138
+state 10
+transition <Statehelpers.Transition.Transition object at 0x7fff5112a4d0>
+got new transition
+var1 = 1
+var2 = -1745487499266.7097
+itemInForc = False
+timeSTS = 0
+distancedrivenSTS = 0
+timesInLinefollow = 1
+following_line = False
+crossing_counter = 0
+
+<States.BallSorter.BallSorter object at 0x7fff58efcd90>
+Executing Ball Detection state
+Starting ball sorter state machine
+statemachine, move to: 0.37388389874892713, 0.17019013894211368
+statemachine, move to: 0.5211996454035575, 0.019247777029401624
+ball in grabber
+[13, 12]
+Found IDs: [13, 12]
+Found luggage area direct, 1.0991823821762514, 0.18773674033782153
+calc center: [1.08141413 0.25471163 0.18241878] 	 xtra rot: [0.4061770301633022, 0.40617703016330226]
+[13, 12]
+Found IDs: [13, 12]
+Found luggage area, advanced
+calc center: [0.88663367 0.02761492 0.18418674] 	 xtra rot: [0.1915684081065251, 0.1915684081065251]
+two ids found
+current,destination:  (12, 13) (14, 15)
+driveangle:  1.5707963267948966
+moving around target
+radius : 0.65
+driveangle + extra_travel : 1.7623647349014218
+centercords : [0.88663367 0.02761492 0.18418674]
+centercords[0] : 0.88663367316662
+centercords[1] : 0.027614919227413492
+0.88663367316662
+0.027614919227413492
+0.65
+1.7623647349014218
+1.0
+move around target, sign: 1.0
+full dist: 1.1455370776859242
+move backwards
+[14, 15]
+Found IDs: [14, 15]
+calc center: [ 0.94736993 -0.08271683  0.20396591] 	 xtra rot: [-0.02797803264402121, -0.02797803264402121]
+0.9473699344373283 -0.0827168320502498
+internal state 6
+[15]
+Found IDs: [15]
+True
+inside internal state found
+15
+[array([[0.22365443],
+       [0.43771681],
+       [0.04129305]])]
+rotation: -0.43771681345216007
+going to state 7
+found line, going to state 8
+transition <Statehelpers.Transition.Transition object at 0x7fff511445d0>
+got new transition
+var1 = 1
+var2 = -1745487499266.7097
+itemInForc = False
+timeSTS = 0
+distancedrivenSTS = 0
+timesInLinefollow = 1
+following_line = False
+crossing_counter = 0
+
+<States.LineFollow.LineFollow object at 0x7fff51165690>
+start following with speed: 0.4 and ref_pos: 0
+cross cnt: 1 	 tripB: 0.24195855
+timesInLine: 2 	 timesInIntermediate: 0
+cross cnt: 2 	 tripB: 1.2523749000000002
+timesInLine: 2 	 timesInIntermediate: 0
+cross cnt: 3 	 tripB: 0.7042516500000003
+timesInLine: 2 	 timesInIntermediate: 0
+done
+turning
+return
+start following with speed: 0.4 and ref_pos: 0
+LineCtrl:: PIDrecalculate: T=10.01 -> 34.85 ms
+%% Lead: tauZ 1.300 sec, tauP = 0.260 sec, T = 34.847 ms
+
+%%       tauZ2pT = 2.6348, tauZ2mT = 2.5652, tauP2pT = 0.5548, tauP2mT = 0.5548
+LineCtrl:: PIDrecalculate: T=34.85 -> 32.84 ms
+%% Lead: tauZ 1.300 sec, tauP = 0.260 sec, T = 32.841 ms
+
+%%       tauZ2pT = 2.6328, tauZ2mT = 2.5672, tauP2pT = 0.5528, tauP2mT = 0.5528
+LineCtrl:: PIDrecalculate: T=32.84 -> 30.64 ms
+%% Lead: tauZ 1.300 sec, tauP = 0.260 sec, T = 30.640 ms
+
+%%       tauZ2pT = 2.6306, tauZ2mT = 2.5694, tauP2pT = 0.5506, tauP2mT = 0.5506
